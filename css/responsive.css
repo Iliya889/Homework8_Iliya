@@ -1,0 +1,63 @@
+@media (min-width: 910px) and (max-width: 1175px) {
+
+}
+
+@media (min-width: 660px) and (max-width: 909px) {
+
+}
+
+@media (min-width: 586px) and (max-width: 659px) {
+
+}
+
+@media (max-width: 585px) {
+
+}
+
+
+@media (max-width: 750px) {
+
+nav {
+	top: 10px;
+}
+nav li {
+	display: none;
+}
+nav ul .item:hover {
+	text-decoration: none; 
+	border-radius: 4px;
+	background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgb(160, 160, 160) 0%, rgb(255, 255, 255) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(160, 160, 160) 0%, rgb(255, 255, 255) 100%);
+    background: -o-linear-gradient(90deg, rgb(160, 160, 160) 0%, rgb(255, 255, 255) 100%);
+    background: -ms-linear-gradient(90deg, rgb(160, 160,160) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(180deg, rgb(160,160, 160) 0%, rgb(255, 255, 255) 100%);
+}
+.bar-icon {
+	font-size:30px;
+	display: block;
+	background: none;
+	text-align: center;
+	margin-bottom: 6px;
+	border: 1px solid transparent;
+}
+nav>ul>li {
+	background: #8b939e;
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 15px 15px;
+	float: none;
+	min-width: 128px;	
+} 
+nav ul:hover li {
+	display: block;
+}
+.bar-icon>a:hover {
+ 	background: none;
+ 	text-align: center;
+ }  
+
+
+
+
+
