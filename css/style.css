@@ -69,8 +69,9 @@ nav ul li a:visited {
      background: none;
 } 
 .slider {
-	background: lightblue;
-	height: 470px;
+	background: url("../img/slider_background.jpg");
+	height: 500px;
+	font-family: "Open Sans";
 }
 .service {
 	height: 490px;
@@ -83,3 +84,82 @@ nav ul li a:visited {
 .footer {
 	height: 100px;
 }
+
+.mobile {
+	background: url("../img/1.png")  no-repeat;
+	background-size: cover;
+	min-width: 221px;
+	max-width: 323px;
+}
+
+.text-app {
+	margin: 12% auto;
+}
+
+.iosapp {
+	font-size: 46px;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+
+}
+.lorem {
+	font-size: 16px;
+	color: #335565;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 0.5);
+}
+.button-moreinfo {
+	background: #74abda;
+	width: 170px;
+	height: 40px;
+	padding: 8px 45px;
+	
+
+}
+.button-moreinfo a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+}
+
+.button-moreinfo a:hover {
+	text-decoration: none;
+	color: grey;
+}
+.carousel-inner {
+	height: 470px;
+	width: 50%;
+
+}
+.item .active {
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    min-width: 221px;
+    height: auto;
+}
+
+.carousel-indicators {
+    margin-left: 90%;
+}
+.carousel-indicators .active {
+	background: #3674ba;
+	border-color: #3674ba; 
+}
+
+.carousel-indicators li {
+	background: #8cc0ea;
+	border-color: #8cc0ea;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+/* .ourservices {
+	font-size: 46px;
+	text-transform: uppercase;
+}
+.service {
+	max-width: 935px;
+} */
