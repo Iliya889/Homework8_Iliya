@@ -22,7 +22,6 @@ header {
 .logo a{
 	text-transform: uppercase;
 	text-decoration: none;
-	/* text-shadow: 0px 2px 4px rgba(61, 61, 61, 0.5); */
 	background: linear-gradient(to bottom, rgb(252, 252, 252), rgb(156, 156, 156));
 	color: transparent;
     -webkit-background-clip: text;	
@@ -70,36 +69,32 @@ nav ul li a:visited {
 } 
 .slider {
 	background: url("../img/slider_background.jpg");
-	height: 500px;
 	font-family: "Open Sans";
-}
-.service {
-	height: 490px;
-
+	min-width: 300px;
 }
 .about {
-	height: 620px;
+	margin-top: 40px;
 	background-color: #ccc;
 }
 .footer {
-	height: 100px;
+	height: 60px;
+	text-align: center;
+	margin-top: 40px;
+	font-family: MariadProRegular;
+	color: #6f6f6f;
 }
-
 .mobile {
 	background: url("../img/1.png")  no-repeat;
 	background-size: cover;
 	min-width: 221px;
 	max-width: 323px;
 }
-
 .text-app {
 	margin: 12% auto;
 }
-
 .iosapp {
 	font-size: 46px;
 	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
-
 }
 .lorem {
 	font-size: 16px;
@@ -111,8 +106,6 @@ nav ul li a:visited {
 	width: 170px;
 	height: 40px;
 	padding: 8px 45px;
-	
-
 }
 .button-moreinfo a {
 	text-decoration: none;
@@ -120,7 +113,6 @@ nav ul li a:visited {
 	font-size: 16px;
 	text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
 }
-
 .button-moreinfo a:hover {
 	text-decoration: none;
 	color: grey;
@@ -128,18 +120,15 @@ nav ul li a:visited {
 .carousel-inner {
 	height: 470px;
 	width: 50%;
-
 }
 .item .active {
 }
-
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
     min-width: 221px;
     height: auto;
 }
-
 .carousel-indicators {
     margin-left: 90%;
 }
@@ -147,19 +136,105 @@ nav ul li a:visited {
 	background: #3674ba;
 	border-color: #3674ba; 
 }
-
 .carousel-indicators li {
 	background: #8cc0ea;
 	border-color: #8cc0ea;
 }
-
 .carousel {
     margin-top: 30px;
 }
-/* .ourservices {
+.ourservices {
 	font-size: 46px;
 	text-transform: uppercase;
+	text-align: center;
+	font-family: Open Sans Light;
+	margin-bottom: 40px;
 }
 .service {
-	max-width: 935px;
-} */
+	max-width: 980px;
+	text-align: center;
+	margin-top: 40px;
+}
+.icon-circle-blank{
+	background: black;
+}
+.cl {
+	color: red;
+}
+.heading {
+	color: #3674ba;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.icons {
+	margin-bottom: 20px;
+}
+.loremb {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1.3;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.aboutus {
+	font-size: 46px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Open Sans Light;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	color: #5b6169;
+
+
+}
+.progress-bar {
+	text-transform: uppercase;
+	padding: 5px 10px;
+	text-align: left;
+}
+.progress {
+    height: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #828181;
+    border-radius: 0;
+}
+.heading-test-task {
+	color: #7c7c7c;
+	font-size: 34px;
+	margin-bottom: 10px;
+
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:160px;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:150px;
+    width:100%;
+    position:absolute;
+}
+ .wrapper { 
+	max-width: 980px;
+} 
+.form-control {
+	border-radius: 0;
+	background: #f1f1f1;
+}
+.form-group {
+    margin-bottom: 4px;
+}
+.input-addon {
+    bottom: 0;
+    right: 16px;
+    position: absolute;
+    background: #3674ba;
+    padding: 2px 20px;
+    color: #fff;
+}

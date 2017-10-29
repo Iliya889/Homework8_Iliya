@@ -4,18 +4,37 @@
 
 @media (min-width: 660px) and (max-width: 909px) {
 
+.ourservices{
+	font-size: 36px;
+}
+
+.aboutus{
+	font-size: 36px;
+}
 }
 
 @media (min-width: 586px) and (max-width: 659px) {
 
+.ourservices{
+	font-size: 32px;
+}
+.aboutus{
+	font-size: 32px;
+}
 }
 
 @media (max-width: 585px) {
 
+.ourservices{
+	font-size: 28px;
+}
+.aboutus{
+	font-size: 28px;
+}
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 766px) {
 
 nav {
 	top: 10px;
@@ -57,7 +76,15 @@ nav ul:hover li {
  	text-align: center;
  }  
 
-
-
-
-
+.carousel-indicators {
+	position: absolute;
+	margin-left: -30%;
+	top: 105%;
+}
+.ourservices{
+	font-size: 40px;
+}
+.aboutus{
+	font-size: 40px;
+}
+}
